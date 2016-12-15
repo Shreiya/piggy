@@ -20,6 +20,14 @@ margin-top: 15%;
   margin-left: 33%;
 }
 
+a {
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 50%;
+    margin-left: 43%;
+}
+
 #play {
   text-decoration: none;
   font-family: arial;
@@ -31,8 +39,13 @@ margin-top: 15%;
   height: 40px;
   font-weight: bold;
   padding: 10px;
-  margin-left: 45%;
-  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class {
+  margin-left: 35%;
 }
 
 /*#container {
