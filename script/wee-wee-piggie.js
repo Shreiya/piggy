@@ -174,8 +174,10 @@ if(e.keyCode==37 && (piggieLocation - 1 <= 360) && (piggieLocation - 1 >= 0) && 
   document.getElementById('block-'+piggieLocation).innerHTML='<div id="piggie" class="piggie"></div>';
 }
 if (piggieLocation == 37) {
+  div.innerHTML =
+  window.location="win.html";
 
-div.innerHTML = "<div class='win'><img src='http://i.giphy.com/6hFPE2KgnLrJS.gif' /><br></div>";
+// div.innerHTML = "<div class='win'><img src='http://i.giphy.com/6hFPE2KgnLrJS.gif' /><br></div>";
 }
 checkForIncentives();
 
